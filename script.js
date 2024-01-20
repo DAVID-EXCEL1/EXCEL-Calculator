@@ -2,7 +2,7 @@
 
 function myValue(values) {
     console.log(values);
-    inputValue = values;
+    display.innerHTML = values;
 }
 
 
@@ -11,6 +11,6 @@ function del() {
     if (inputValue == '') {
         alert("Nothing to delete");
     } else {
-        
+        alert("I will soon delete it");
     }
 }
