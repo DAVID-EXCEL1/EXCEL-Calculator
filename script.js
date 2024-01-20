@@ -2,13 +2,13 @@
 
 function myValue(values) {
     console.log(values);
-    display.innerHTML = values;
+    inputValue = values;
 }
 
 
 // AC Function ------------------------------
 function del() {
-    if (display.innerHTML == '') {
+    if (inputValue == '') {
         alert("Nothing to delete");
     } else {
         
