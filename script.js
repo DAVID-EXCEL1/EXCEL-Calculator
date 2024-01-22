@@ -1,16 +1,20 @@
 // Value Function ------------------------------
+arrayNumbers = []
 
 function myValue(values) {
     console.log(values);
-    display.innerHTML = values;
+    arrayNumbers = values
+    display.innerHTML = arrayNumbers;
 }
 
 
 // AC Function ------------------------------
-function del() {
-    if (inputValue == '') {
+function del(del) {
+    var inputValue = document.getElementById("display").innerHTML;
+    if (arrayNumbers === "") {
         alert("Nothing to delete");
     } else {
-        alert("I will soon delete it");
+        arrayNumbers.splice(del,1);
+        console.log(arrayNumbers.splice(del,1));
     }
 }
