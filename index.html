@@ -14,7 +14,13 @@
 <body>
     <div class="container-fluid mx-auto ps-4 mt-lg-5 py-4 rounded-5 shadow-lg col-lg-4">
         <h6 class="mb-3 ms-2" style="color: #909090;">Excel Calculator</h6>
-        <div id="display" class="shadow-sm ms-2 me-4 px-3 py-4 mb-3 rounded-3" style="background-color: #f0f0f0;"></div>
+        <div class="shadow-sm ms-2 me-4 px-3 py-4 mb-3 rounded-3 d-flex justify-content-between" style="background-color: #f0f0f0;">
+            <div id="display" class="">
+            </div>
+            <div id="ans" class="">
+                FISH
+            </div>
+        </div>
         <div>
             <button class="rounded-5 my-2 p-4 mx-1 shadowm-sm border-0" style="color: #909090;"
                 onclick="myValue(7)">7</button>
@@ -55,7 +61,7 @@
             <button class="rounded-5 my-2 p-4 mx-1 shadowm-sm border-0"
                 style="color: #d1d1d1; background-color: #8d8d8d;">√</button>
             <button class="rounded-5 my-2 p-4 mx-1 shadowm-sm border-0"
-                style="color: #d1d1d1; background-color: #8d8d8d;">=</button>
+                style="color: #d1d1d1; background-color: #8d8d8d;" onclick="solve()">=</button>
         </div>
     </div>
 

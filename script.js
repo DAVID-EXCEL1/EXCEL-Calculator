@@ -14,6 +14,6 @@ function del(del) {
         alert("Nothing to delete");
     } else {
         alert("About deleting your last digit")
-        display.innerHTML = "D"
+        display.innerHTML = ""
     }
 }
