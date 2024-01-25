@@ -27,7 +27,7 @@ function solve() {
         alert("Don't Cause Bug")
     }else{
         let answer = document.getElementById("ans");
-        confirm("Have you solved it")
+        confirm("Have you solved it");
         answer = myValue(values);
     }
 }
