@@ -28,6 +28,6 @@ function solve() {
     }else{
         let answer = document.getElementById("ans");
         confirm("Have you solved it")
-        answer = myValue(values)
+        answer = myValue(values);
     }
 }
